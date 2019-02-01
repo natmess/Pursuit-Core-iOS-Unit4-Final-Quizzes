@@ -8,6 +8,8 @@
 
 import Foundation
 
-struct Quiz {
-    
+struct Quiz: Codable {
+    let id: String
+    let quizTitle: String
+    let facts: [String]
 }
